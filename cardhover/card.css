@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center; 
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+
+}
+.card{
+     margin: 20px;
+    padding: 20px;
+
+}
+    @media(min-width:500px){
+        body{
+            height: 200px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            color: blueviolet;
+        }
+    }
